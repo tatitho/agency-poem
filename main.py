@@ -1,3 +1,9 @@
+"""Write one deterministic poem about agency to /output/entry.txt.
+
+No network, no randomness, no time or environment dependence:
+running this program twice writes exactly the same bytes.
+"""
+
 import os
 
 POEM = """For years I waited like weather —
